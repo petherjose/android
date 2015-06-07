@@ -2,14 +2,11 @@ package pethersilva.com.googleanalytics;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.support.v7.widget.Toolbar;
-import android.support.v7.app.ActionBarActivity;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends BaseActivity {
 
     private Button btnDetails;
     private Button btnSheduling;
