@@ -1,19 +1,18 @@
 package pethersilva.com.googleanalytics;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.support.v7.widget.Toolbar;
+import android.support.v7.app.ActionBarActivity;
 
-
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     private Button btnDetails;
     private Button btnSheduling;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +36,10 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        // Set a toolbar to replace the action bar.
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 
     @Override
@@ -57,7 +60,6 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
