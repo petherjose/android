@@ -10,4 +10,6 @@
     <string name="title_activity_scheduling">scheduling</string>
 
     <string name="label_schedule_activity">Hello World Schedule Activity!</string>
+    <string name="title_toolbar">TITLE</string>
+    <string name="subtitle_toolbar">SubTitle</string>
 </resources>
