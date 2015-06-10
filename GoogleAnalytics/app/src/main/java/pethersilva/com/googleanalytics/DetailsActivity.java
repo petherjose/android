@@ -3,6 +3,9 @@ package pethersilva.com.googleanalytics;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+/*
+    Activity class just to show how the Google Analytics track all behaviour in onCreate and onDestroy methods
+ */
 public class DetailsActivity extends BaseActivity {
 
     @Override

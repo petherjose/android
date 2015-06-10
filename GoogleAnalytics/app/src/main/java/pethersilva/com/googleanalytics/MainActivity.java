@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.support.v7.widget.Toolbar;
 
+/*
+    Activity class just to show how the Google Analytics track all behaviour in onCreate and onDestroy methods
+ */
 public class MainActivity extends BaseActivity {
 
     private Button btnDetails;
